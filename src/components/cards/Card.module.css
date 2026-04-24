@@ -1,0 +1,434 @@
+.cardCertification {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 10px;
+    background-color: #35074c;
+    width: 100%;
+    max-height: 80px; 
+    padding: 15px 6px;
+    color: white;
+    border-radius: 15px;
+    transition: background-color 0.4s ease, transform color 1s ease-in;
+    position: relative; 
+    overflow: hidden;
+    
+    
+
+}
+
+.cardCertification:has(.buttonCard:hover) {
+    background-color:  rgb(40, 3, 85);
+}
+  
+.cardCertification:has(.buttonCard:hover) .icon{
+  color:#35074c;
+   transform: rotate(15deg) scale(1.2);
+}
+
+.info {
+    
+    display: flex;               
+    align-items: center;        
+    justify-content: center; 
+   
+
+ 
+}
+
+.description {
+    margin: 0;
+    max-width: 200px;
+    letter-spacing: 1px;
+    font-size: 15px;
+    line-height: 1.2;
+    font-weight: 600;
+    text-align: center;
+    
+    
+    
+} 
+
+
+.iconWrapper {
+  width: 60px;
+  height:max-content;
+  background-color: #32d2f2;  
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  align-items: center;
+  border-bottom-right-radius: 30px; 
+  position: absolute; 
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.iconWrapper::after {
+  content: "";
+  position: absolute;
+  right: -20px;
+  top: 0;
+  width: 20px;
+  height: 20px;
+  border-top-left-radius: 20px;
+  box-shadow: -5px -5px 0 5px #32d2f2; 
+}
+
+
+.icon {
+    font-size: 25px;
+    transition: transform 0.3s ease, color 0.3s ease;
+    
+}
+
+
+
+ 
+.buttonCard {
+    width: 50px;
+    height: 40px;
+    background-color: #32d2f2;
+    color: black;
+    font-weight: 700;
+    font-size: 15px;
+    border-radius: 0 20px 20px 20px;
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    border: none;
+    transition: .4s ease;
+}
+
+.buttonCard:hover {
+    background-color: transparent;
+    color: #32d2f2;
+    border: 2px solid #32d2f2;
+    transform: scale(1.2);  
+    letter-spacing: 2px;
+}
+
+
+.cardEducation {
+    
+    max-height: min-content;
+    margin: 15px;
+    box-shadow: 6px 6px 20px -1px #090909;
+    border-radius: 10px;
+    background-color: #85c4ce;
+    
+}
+
+.lefte{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+ 
+.imgeducation{
+    max-height:170px;
+    max-width: 170px;
+}
+
+.right{
+      display: flex;
+    justify-content: center;
+   
+    flex-direction: column;
+    padding: 1rem;
+    
+}
+
+.right .curso{
+    font-size: 18px;
+    align-self: start;
+    font-style: oblique;
+    font-weight: 600;
+    
+}
+
+.right .date{
+font-size: 15px;
+}
+
+.right .date  strong{
+ font-size: 14px;
+ font-weight: 900;   
+}
+.right .curso_description{
+    font-size: small;
+    font-style: italic;
+}
+
+.right .diploma {
+    align-self: end;
+    border: none;
+    border-radius: 50%;
+    font-size: 20px;
+    transition: .7s ease-in-out;
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    white-space: nowrap;  
+}
+
+.right .diploma span {
+    opacity: 0;          
+    width: 0;              
+    transition: .7s ease-in-out;
+}
+
+.right .diploma:hover {
+    background-color: #35074c;
+    color: white;
+    border-radius: 10px;
+    width: 200px;
+}
+
+.right .diploma:hover span {
+    opacity: 1;            
+    width: auto;           
+}
+
+.right .diploma:hover {
+    background-color: #35074c;
+    color: white;
+    border-radius: 10px;
+    width: 200px;
+}
+
+.right .diploma:hover span {
+    opacity: 1;            
+    width: auto;           
+}
+
+.caracteristicas{
+    margin: 10px 5px ;
+    height: min-content;
+    width: 160px;
+    border-radius: 20px;
+    position: relative;
+    border: #35074c 1px solid;
+box-shadow: #35074c 0px 1px 3px 1px;
+background-color: #35074c;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+transition:all .3s ease;
+}
+
+
+.caracteristicas:hover{
+
+    transform: scale(1.09);
+}
+
+
+.iconocaract{
+position: absolute;
+font-size: 30px;
+color: white;
+background-color: #35074c;
+left: 40%;
+top: -10%;
+margin-bottom: 10px;
+padding: 5px;
+border-radius: 50%;
+
+
+}
+
+.titlecard{
+margin-top: 40px;
+font-size: 10px;
+font-weight: 800;
+width: min-content;
+text-align: center;
+text-align: center;
+color: white;
+
+
+
+}
+
+.descriptioncard {
+font-size: 10px;
+color: white;
+text-align: center;
+}
+
+.cardProject {
+    height: 230px;
+    background-color:#1a9bb0;
+    margin: 5px 10px;
+    display: flex;
+    flex-direction: column;
+    min-width: 180px;
+    overflow: hidden;
+    border-radius: 10px;
+    padding: 0;  
+    transition: .4s ease; 
+    
+
+}
+
+.cardProject:hover{
+transform: scale(1.09);
+box-shadow: rgb(0, 0, 0) 5px 5px 5px 2px;
+
+}
+
+.imgcard {
+    height: 60%;
+    padding: 0;
+    margin: 0;
+    flex-shrink: 0;    
+}
+
+.cardimg {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    display: block;     }
+
+.infoP {
+    display: flex;        
+    width: 100%;
+    padding: 5px 8px;
+    background-color:#1a9bb0;
+    overflow: hidden;
+    flex-direction: column;
+}
+
+.infoP{
+    height: 30%;
+    width: 100%;
+    margin: 0;
+}
+
+.tittleProject{
+font-size: 15px;
+margin-top: 3px;
+font-weight: 900;
+color: rgb(0, 0, 0);
+text-align: start;
+
+}
+
+.infoP p{
+    font-size: 13px;
+    margin: 0;
+    padding: 0;
+    font-weight: 500;
+    text-align: start;
+    color: rgb(0, 0, 0);
+
+}
+
+
+.skillCard{
+background-color: #190a3a;
+display: flex;
+flex-direction: column;
+overflow: hidden;
+position: relative;
+border-radius: 20px;
+height: 130px;
+width: 150px;
+margin: 10px;
+    box-shadow: rgb(0, 0, 0) 1px -1px 10px 2px;
+ 
+}
+
+
+.color{
+   height: 60%;
+    padding: 0;
+    width: 100%;
+    margin: 0;
+    flex-shrink: 0;
+    background-color: var(--Color);
+    border-radius: 50%;
+    position: absolute;
+    top: -70px;
+    left: 0;
+    transition: .4s  ease-in-out;
+    box-shadow: rgba(255, 255, 255, 0.567) 1px 1px 15px 2px;
+     
+
+}
+.imgtec {
+       height: 50px;
+    object-fit: cover;
+    display: block;
+    position: absolute;
+    bottom:5%;
+    right: 33%;
+}
+
+.tecnology{
+color: white;
+margin-top: 4rem;
+
+}
+
+.tecnology h6{
+    text-align: center;
+    margin-top: 2px;
+    font-weight: 700;
+}
+ 
+
+.progressBar {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 0 8px;
+}
+
+.barContainer {
+    flex: 1;
+    height: 8px;
+    background-color: rgba(255,255,255,0.2);  
+    border-radius: 99px;
+    overflow: hidden;
+}
+
+.bar {
+    height: 100%;
+    width: 0;                             
+    background-color: var(--Color);
+    border-radius: 99px;
+    transition: .6s all ease-in-out;
+}
+
+ 
+
+.progressBar p {
+    font-size: 10px;
+    color: white;
+    margin: 0;
+}
+
+.skillCard:hover .bar{
+    width: var(--progress);   
+    box-shadow: white 1px -4px 10px 5px;
+
+
+}
+
+.skillCard:hover .color{
+     
+    top: -20px;               
+
+}
+
+
+

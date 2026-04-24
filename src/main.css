@@ -1,0 +1,193 @@
+.section_render {
+  display: flex;
+  flex-direction: column;
+  max-height: 480px;
+  padding: 1rem;
+  margin: 10px;
+  background-color: rgba(255, 255, 255, 0.597);
+  box-shadow: 0px 1px 20px -1px black;
+  overflow-y: auto;
+  overflow-x: hidden;
+  scrollbar-width: none;
+}
+.section_render .encabezado {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.section_render .encabezado h3 {
+  font-size: 17px;
+  font-weight: 900;
+  color: rgb(86, 8, 120);
+}
+.section_render .encabezado .btn-more {
+  border: none;
+  background-color: transparent;
+  color: rgb(94, 94, 94);
+  font-weight: 700;
+  font-size: 15px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+.section_render .encabezado .btn-more i {
+  padding-left: 10px;
+  color: gray;
+  font-size: 20px;
+  transition: all 0.3s ease;
+}
+.section_render .encabezado .btn-more:hover {
+  color: black;
+}
+.section_render .encabezado .btn-more:hover i {
+  color: rgb(40, 3, 85);
+}
+
+.perfil {
+  padding: 1rem;
+}
+.perfil h6 {
+  font-size: 15px;
+  letter-spacing: 2px;
+  font-style: italic;
+}
+.perfil h4 {
+  padding-top: 2rem;
+  font-weight: 700;
+  letter-spacing: 3px;
+  font-style: oblique;
+}
+.perfil p {
+  padding: 10px;
+}
+
+.caracteristicas {
+  display: flex;
+  justify-content: center;
+}
+
+.skillall h3 {
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 500;
+}
+
+.skills_card {
+  display: flex;
+  justify-content: center;
+}
+
+.skillsLateral {
+  background-color: aliceblue;
+  padding: 1rem;
+  margin-top: 10px;
+  box-shadow: 0px 1px 20px -6px black;
+}
+.skillsLateral .encabezado {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.skillsLateral .encabezado h5 {
+  font-size: 17px;
+  font-weight: 900;
+  color: rgb(86, 8, 120);
+  margin: 0;
+}
+.skillsLateral .encabezado .btn-more {
+  border: none;
+  background-color: transparent;
+  color: rgb(94, 94, 94);
+  font-weight: 700;
+  font-size: 15px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+.skillsLateral .encabezado .btn-more i {
+  padding-left: 10px;
+  color: gray;
+  font-size: 15px;
+  transition: all 0.3s ease;
+}
+.skillsLateral .encabezado .btn-more:hover {
+  color: black;
+}
+.skillsLateral .encabezado .btn-more:hover i {
+  color: rgb(40, 3, 85);
+}
+.skillsLateral .skills {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.skillsLateral .skills .skillCard {
+  background-color: rgba(82, 11, 82, 0.6784313725);
+  width: 80px;
+  height: 50px;
+  margin: 2px 3px;
+  border-radius: 20px;
+  text-align: center;
+  transition: 0.4s ease-in-out;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: scale(0.9);
+}
+.skillsLateral .skills .skillCard img {
+  font-size: 30px;
+  height: 80%;
+}
+.skillsLateral .skills .skillCard:hover {
+  transform: scale(1.2);
+  transform: rotate(10deg);
+  background-color: black;
+}
+
+.certifications {
+  background-color: aliceblue;
+  padding: 1rem;
+  margin-top: 10px;
+  box-shadow: 0px 1px 20px -6px black;
+}
+.certifications .encabezado {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.certifications .encabezado h5 {
+  font-size: 17px;
+  font-weight: 900;
+  color: rgb(86, 8, 120);
+  margin: 0;
+}
+.certifications .encabezado .btn-more {
+  border: none;
+  background-color: transparent;
+  color: rgb(94, 94, 94);
+  font-weight: 700;
+  font-size: 15px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+.certifications .encabezado .btn-more i {
+  padding-left: 10px;
+  color: gray;
+  font-size: 15px;
+  transition: all 0.3s ease;
+}
+.certifications .encabezado .btn-more:hover {
+  color: black;
+}
+.certifications .encabezado .btn-more:hover i {
+  color: rgb(40, 3, 85);
+}
+
+.projects .Proyectos {
+  display: flex;
+  justify-content: flex-start;
+}
+.projects .oncoming {
+  display: flex;
+  justify-content: flex-start;
+}/*# sourceMappingURL=main.css.map */
