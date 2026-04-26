@@ -61,12 +61,7 @@ export default function Sidebar() {
             {!collapsed && <span className={styles.navText}>Education</span>}
           </NavLink>
         </li>
-        <li className={styles.navItem}>
-          <NavLink to="/contact" className={navClass}>
-            <i className={`${styles.navIcon} bi bi-person-lines-fill`}></i>
-            {!collapsed && <span className={styles.navText}>Contact</span>}
-          </NavLink>
-        </li>
+        
       </ul>
     </aside>
   )

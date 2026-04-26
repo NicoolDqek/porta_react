@@ -34,7 +34,7 @@ export default function Banner() {
       </a>
     </li>
   </ul>
-  <h3 className={styles.welcome}>¡Bienvenido, Mi Portafolio!</h3>
+  <h3 className={styles.welcome}>Nicool Dayana Cueca Velandia</h3>
 </div>
  
 </div>

@@ -9,13 +9,13 @@ export default function Education() {
 
       <div className="row educationCards">
         <div className='col'>
-  <CardEducation/>
+        <CardEducation/>
         <CardEducation/>
         <CardEducation/>
         </div>
       
       </div>
-      <i></i>
+      
     </div>
   )
 }

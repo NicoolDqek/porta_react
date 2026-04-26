@@ -9,6 +9,7 @@
   overflow-y: auto;
   overflow-x: hidden;
   scrollbar-width: none;
+  position: relative;
 }
 .section_render .encabezado {
   display: flex;
@@ -74,6 +75,19 @@
 .skills_card {
   display: flex;
   justify-content: center;
+}
+
+.btn-back {
+  width: -moz-min-content;
+  width: min-content;
+  border-radius: 6px;
+  border: none;
+  background-color: rgb(55, 13, 55);
+  color: white;
+  font-size: 20px;
+  position: sticky;
+  top: 0;
+  z-index: 10;
 }
 
 .skillsLateral {

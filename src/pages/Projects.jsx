@@ -1,13 +1,17 @@
 import React from 'react'
 import CardProject from '../components/cards/CardProject'
+import {  useNavigate } from 'react-router-dom'
 
 export default function Projects() {
+   const navigate = useNavigate()
+
   return (
     <section className='projects section_render container'>
       
        <div className='encabezado mt-3'>
     <h3> Mis Proyectos</h3>
-    <button className='btn-more'>Ver mas<i class="bi bi-arrow-right"></i></button>
+   <button className='btn-more' onClick={() => navigate('/all_projects')}>Ver mas<i class="bi bi-arrow-right"></i></button>
+
     </div> 
     
     <div className="row Proyectos ">
@@ -18,7 +22,8 @@ export default function Projects() {
     </div>
      <div className='encabezado mt-3 pt-4'>
     <h3> En proceso</h3>
-    <button className='btn-more'>Ver mas<i class="bi bi-arrow-right"></i></button>
+    
+  <button className='btn-more' onClick={() => navigate('/all_projects')}>Ver mas<i class="bi bi-arrow-right"></i></button>
     </div> 
     <div className="row oncoming">
        <CardProject/>

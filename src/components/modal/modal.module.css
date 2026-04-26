@@ -1,0 +1,181 @@
+ 
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+}
+
+.modal {
+    background-color: white;
+    border-radius: 20px;
+    padding: 2rem;
+    width: 800px;
+    position: relative;
+}
+
+.closeBtn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    border: none;
+    background: transparent;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.EdModal{
+    display: flex;
+    padding: 1rem;
+
+}
+
+.diplomaimg{
+  min-height: 60%;
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px -3px #2c074f ;
+}
+
+.EdModal .inforE{
+ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.inforE h3{
+    color: #2c074f;
+    font-size: 20px;
+    font-weight: 700;
+    font-style: italic;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.imgG{
+    position: relative;
+}
+
+.imgG h6 {
+color: rgb(0, 0, 0);
+text-align: center;
+font-size: 15px;  
+}
+
+.imgG h6  strong{
+color: rgb(44, 7, 79);
+text-align: center;
+font-size: 15px;  
+
+
+}
+
+.inforE strong{
+    color: rgb(44, 7, 79);
+    letter-spacing: 2px;
+    
+}
+
+.inforE p{
+    color: rgb(44, 7, 79);
+    font-size: 14px;
+    
+}
+
+.inforE h6{
+    font-size: 14px;
+}
+
+
+.imgG .btnP{
+    border: none;
+    position: absolute;
+    z-index: 99;
+    width: 50px;
+    height: 98%;
+    background-color: transparent;
+    border-radius: 20px;
+    transition: .4s ease-in-out;
+    
+
+}
+
+.btnP:hover{
+background-color: #2c074f3b;
+}
+
+.btnP i{
+    font-size: 30px;
+    color: #2c074f;
+}
+
+.imgG .btnAntes {
+    left:3%;
+}
+
+.imgG .btnDespues {
+right: 3%;
+
+}
+
+.imgP{
+    height: 250px;
+    width: 400px;
+    border-radius: 20px;
+    box-shadow: 1px 3px 10px -1px #000000 ;
+
+     
+}
+.tecnologias{
+    border: #2c074f solid 2px;
+    background-color: #2c074f;
+    box-shadow: 1px 1px 6px 1px #000000 ;
+    border-radius: 10px;
+   display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+   
+
+}
+
+.tecnologias i{
+    font-size: 25px;
+    color: white;
+    padding: 0;
+    margin: 0;
+    padding: 0 5px;
+    display: inline-block; 
+    transition: .3s ease-in;
+   
+}
+.tecnologias i:hover{
+    color: rgb(17, 181, 181);
+    transform: scale(1.3);
+}
+.git{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.git button {
+    min-height: 100px;
+    min-width: 100px;
+    background-color: #2c074f;
+    border: none;
+    border-radius: 20px;
+    font-size: 60px;
+    color: white;
+}
+
+

@@ -7,7 +7,6 @@ export default function Certifications() {
       
          <div className='encabezado'>
     <h5>Certficados</h5>
-    <button className='btn-more'>Ver mas<i class="bi bi-arrow-right"></i></button>
     </div> 
        <CardCertificaction/>
        <CardCertificaction/>

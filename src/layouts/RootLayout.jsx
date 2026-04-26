@@ -9,10 +9,10 @@ import Certifications from './Certifications'
 export default function RootLayout() {
   const location = useLocation()
   
-  const showNavbar = ['/', '/projects','/skills','/education', '/contact'].includes(location.pathname)
+  const showNavbar = ['/', '/projects','/skills','/education', '/contact','/all_projects'].includes(location.pathname)
 
   
-  const showSkill = ['/', '/projects','/education', '/contact'].includes(location.pathname)
+  const showSkill = ['/', '/projects','/education', '/contact','/all_projects'].includes(location.pathname)
 
   return (
     <>

@@ -267,7 +267,7 @@ text-align: center;
 .cardProject {
     height: 230px;
     background-color:#1a9bb0;
-    margin: 5px 10px;
+    margin: 5px 6px;
     display: flex;
     flex-direction: column;
     min-width: 180px;

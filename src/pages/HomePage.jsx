@@ -2,8 +2,11 @@ import React, { useState } from 'react'
 import iconHome from '../assets/iconHome.png'
 import Sidebar from '../components/navbar/sidebar/Sidebar'
 import CardAbjetive from '../components/cards/CardAbjetive'
+import EducationModal from '../components/modal/EducationModal'
 
 export default function Home() {
+
+  const [open, setOpen] = useState(false)
 
   const [characteristics] = useState([
   {
@@ -47,7 +50,7 @@ export default function Home() {
     <div className='container section_render'>
    <div className='encabezado'>
     <h3>Sobre Mi</h3>
-    <button className='btn-more'>Ver mas<i class="bi bi-arrow-right"></i></button>
+    <button onClick={()=>setOpen(true)} className='btn-more'>Ver mas<i class="bi bi-arrow-right"></i></button>
     </div> 
 
     <div className='perfil'>
@@ -62,7 +65,16 @@ export default function Home() {
  </div>
 
     </div>
-   
+
+   <EducationModal open={open} onClose={() => setOpen(false)}>
+    <h3 className='text-center fw-bold p-2 mb-3 fs-3'>Hoja De Vida</h3>
+    <iframe 
+        src="src/mock/hoja.pdf"
+        width="100%"
+        height="500px"
+        style={{ border: 'none' }}
+    />
+</EducationModal>
    
     </div>
   )
