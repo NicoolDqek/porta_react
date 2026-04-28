@@ -11,8 +11,12 @@
     "technologies": [
       {"icon": "bi bi-filetype-html", "title": "HTML"},
       {"icon": "bi bi-filetype-css", "title": "CSS"},
+      {"icon": "bi bi-filetype-jsx", "title": "ReactNative"},
       {"icon": "bi bi-filetype-jsx", "title": "React"},
-      {"icon": "bi bi-github", "title": "GitHub"}
+      {"icon": "bi bi-filetype-sql", "title": "MYSQL"},
+      {"icon":"bi bi-filetype-html","title":"HTML"},
+      {"icon": "bi bi-filetype-sass", "title": "Sass"},
+      {"icon": "bi bi-plug-fill", "title": "APIREST"}
     ],
     "github": "",
     "startDate": "15 de enero, 2025",
@@ -31,12 +35,18 @@
       "/book4.png"
     ],
     "technologies": [
-      {"icon": "bi bi-filetype-html", "title": "HTML"},
-      {"icon": "bi bi-filetype-css", "title": "CSS"},
-      {"icon": "bi bi-filetype-jsx", "title": "React"},
-      {"icon": "bi bi-github", "title": "GitHub"}
+      {"icon":"bi bi-filetype-html","title":"HTML"},
+  {"icon":"bi bi-filetype-css","title":"CSS"},
+  {"icon":"bi bi-filetype-jsx","title":"React"},
+  {"icon": "bi bi-filetype-sass", "title": "Sass"},
+  {"icon": "bi bi-plug-fill", "title": "APIREST"},
+  {"icon": "bi bi-leaf-fill", "title": "MongoDB"},
+  {"icon": "bi bi-code-slash", "title": "Express"},
+  {"icon": "bi bi-file-earmark-code", "title": "nodejs"},
+  {"icon": "bi bi-bootstrap", "title": "Bootstrap"},
+  {"icon": "bi bi-person-fill", "title": "Postman"}
     ],
-    "github": "",
+    "github": "https://github.com/NicoolDqek/Book_Journal-.git",
     "startDate": "15 de enero, 2025",
     "endDate": "En desarrollo"
   }

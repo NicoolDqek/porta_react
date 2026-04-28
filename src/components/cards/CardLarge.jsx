@@ -71,12 +71,12 @@ export default function CardLarge({ project }) {
               <p>{project.learning}</p>
             </div>
             <div className={`col-lg-3 ${stylesM.git}`}>
-              <button>
-                <i className="bi bi-github"></i>
-              </button>
-              <button>
-                <i className="bi bi-arrow-up-right-circle-fill"></i>
-              </button>
+             <a href={project.github} target="_blank" rel="noreferrer">
+  <i className="bi bi-github"></i>
+</a>
+<a href={project.link} target="_blank" rel="noreferrer">
+  <i className="bi bi-arrow-up-right-circle-fill"></i>
+</a>
             </div>
           </div>
 

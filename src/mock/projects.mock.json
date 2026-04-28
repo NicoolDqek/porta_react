@@ -12,12 +12,14 @@
        "/smartbazzar4.png"
     ],
         "technologies": [
-  {"icon":"bi bi-filetype-html","title":"HTML"},
-  {"icon":"bi bi-filetype-css","title":"CSS"},
-  {"icon":"bi bi-filetype-jsx","title":"React"},
-  {"icon":"bi bi-github","title":"GitHub"}
+  {"icon": "bi bi-bootstrap", "title": "Bootstrap"},
+{"icon": "bi bi-filetype-jsx", "title": "React"},
+{"icon": "bi bi-filetype-json", "title": "JSON"},
+{"icon": "bi bi-filetype-css", "title": "CSS"},
+{"icon": "bi bi-filetype-sass", "title": "Sass"},
+{"icon": "bi bi-filetype-html", "title": "HTML"}
 ],
-    "github": "https://github.com",
+    "github": "https://github.com/NicoolDqek/complete.git",
     "startDate": "15 de enero, 2023",
     "endDate": "15 de junio, 2023",
     "link": "https://cheerful-raindrop-852624.netlify.app"
@@ -35,12 +37,14 @@
       "/plussmark4.png"
     ],
     "technologies": [
-  {"icon":"bi bi-filetype-html","title":"HTML"},
-  {"icon":"bi bi-filetype-css","title":"CSS"},
-  {"icon":"bi bi-filetype-jsx","title":"React"},
-  {"icon":"bi bi-github","title":"GitHub"}
+{"icon": "bi bi-bootstrap", "title": "Bootstrap"},
+{"icon": "bi bi-filetype-jsx", "title": "React"},
+{"icon": "bi bi-filetype-css", "title": "CSS"},
+{"icon": "bi bi-filetype-sass", "title": "Sass"},
+{"icon": "bi bi-filetype-html", "title": "HTML"},
+{"icon": "bi bi-plug-fill", "title": "APIREST"}
 ],
-    "github": "https://github.com",
+    "github": "https://github.com/NicoolDqek/reactPractice.git",
     "startDate": "01 de julio, 2023",
     "endDate": "01 de septiembre, 2023",
     "link": "https://pet-friendly.netlify.app"
@@ -58,15 +62,18 @@
       "/petfriendly4.png"
     ],
     "technologies": [
-  {"icon":"bi bi-filetype-html","title":"HTML"},
-  {"icon":"bi bi-filetype-css","title":"CSS"},
-  {"icon":"bi bi-filetype-jsx","title":"React"},
-  {"icon":"bi bi-github","title":"GitHub"}
+   {"icon": "bi bi-bootstrap", "title": "Bootstrap"},
+{"icon": "bi bi-filetype-jsx", "title": "React"},
+{"icon": "bi bi-filetype-json", "title": "JSON"},
+{"icon": "bi bi-filetype-css", "title": "CSS"},
+{"icon": "bi bi-filetype-html", "title": "HTML"},
+{"icon": "bi bi-fire", "title": "Fire Base"}
+
 ],
-    "github": "https://github.com",
+    "github": "https://github.com/NicoolDqek/pet-shop.git",
     "startDate": "10 de octubre, 2023",
     "endDate": "10 de diciembre, 2023",
-    "link": "https://pet-friendly.netlify.app"
+    "link": "https://react-practice-epwf.vercel.app"
   },
   {
     "id": 4,
@@ -84,9 +91,17 @@
   {"icon":"bi bi-filetype-html","title":"HTML"},
   {"icon":"bi bi-filetype-css","title":"CSS"},
   {"icon":"bi bi-filetype-jsx","title":"React"},
-  {"icon":"bi bi-github","title":"GitHub"}
+  {"icon": "bi bi-filetype-sass", "title": "Sass"},
+  {"icon": "bi bi-plug-fill", "title": "APIREST"},
+  {"icon": "bi bi-leaf-fill", "title": "MongoDB"},
+  {"icon": "bi bi-code-slash", "title": "Express"},
+  {"icon": "bi bi-file-earmark-code", "title": "nodejs"},
+  {"icon": "bi bi-bootstrap", "title": "Bootstrap"},
+  {"icon": "bi bi-person-fill", "title": "Postman"}
+
+
 ],
-    "github": "https://github.com",
+    "github": "https://github.com/NicoolDqek/k-api.git",
     "startDate": "05 de enero, 2024",
     "endDate": "05 de febrero, 2024",
     "link": "https://k-api-phi.vercel.app"

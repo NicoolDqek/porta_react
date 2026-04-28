@@ -169,15 +169,19 @@ right: 3%;
     
 }
 
-.git button {
+.git a {
     min-height: 100px;
     min-width: 100px;
     background-color: #2c074f;
     border: none;
     border-radius: 20px;
     font-size: 60px;
-    color: white;
     margin: 0 5px;
+    text-align: center;
+}
+
+.git i{
+    color: white;
 }
 
 

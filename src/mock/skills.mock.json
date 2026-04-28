@@ -1,8 +1,8 @@
 [
   { "id": 1, "name": "HTML", "progress": 90, "color": "#7a2a1a", "icon": "html" },
-  { "id": 2, "name": "CSS", "progress": 80, "color": "#1a3a7a", "icon": "css" },
-  { "id": 3, "name": "JavaScript", "progress": 75, "color": "#7a6a1a", "icon": "js" },
-  { "id": 4, "name": "React", "progress": 70, "color": "#1a5a6a", "icon": "react" },
+  { "id": 2, "name": "CSS", "progress": 70, "color": "#1a3a7a", "icon": "css" },
+  { "id": 3, "name": "JavaScript", "progress": 60, "color": "#7a6a1a", "icon": "js" },
+  { "id": 4, "name": "React", "progress": 60, "color": "#1a5a6a", "icon": "react" },
   { "id": 5, "name": "Node.js", "progress": 60, "color": "#1a5a2a", "icon": "node" },
   { "id": 6, "name": "MongoDB", "progress": 55, "color": "#1a4a2a", "icon": "mongo" }
 ]
