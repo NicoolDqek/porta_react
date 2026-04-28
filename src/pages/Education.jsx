@@ -1,5 +1,6 @@
 import React from 'react'
 import CardEducation from '../components/cards/CardEducation'
+import  eduction from '../mock/certificados.mock.json'
 
 export default function Education() {
   return (
@@ -9,9 +10,13 @@ export default function Education() {
 
       <div className="row educationCards">
         <div className='col'>
-        <CardEducation/>
-        <CardEducation/>
-        <CardEducation/>
+          {
+            eduction.slice(0,3).map(c=>(
+               <CardEducation key={c.id} card={c}/>
+            ))
+          }
+       
+       
         </div>
       
       </div>

@@ -1,0 +1,43 @@
+[
+  {
+    "id": 1,
+    "title": "Belice",
+    "description": "Plataforma de comercio electrónico especializada en licores, orientada a implementarse con React Native.",
+    "learning": "Aprendí a estructurar proyectos escalables y manejar estado global con Context API. Mejoré mis habilidades en diseño de interfaces de usuario, organización de componentes reutilizables y gestión del carrito de compras con persistencia de datos.",
+    "mainImage": "/wine.webp",
+    "images": [
+      "/wine.webp"
+    ],
+    "technologies": [
+      {"icon": "bi bi-filetype-html", "title": "HTML"},
+      {"icon": "bi bi-filetype-css", "title": "CSS"},
+      {"icon": "bi bi-filetype-jsx", "title": "React"},
+      {"icon": "bi bi-github", "title": "GitHub"}
+    ],
+    "github": "",
+    "startDate": "15 de enero, 2025",
+    "endDate": "En desarrollo"
+  },
+  {
+    "id": 2,
+    "title": "Book Journal",
+    "description": "Plataforma de gestión de libros con seguimiento de lecturas, favoritos y reseñas personales. Diseñada con una interfaz moderna e intuitiva.",
+    "learning": "Aprendí a crear sesiones desde el servidor junto con manejo de caché interna usando React Query. Mejoré el uso de estilos con Bootstrap, profundicé en el manejo de estados globales con Context API y organización de componentes reutilizables.",
+    "mainImage": "/book.webp",
+    "images": [
+      "/book1.png",
+      "/book2.png",
+      "/book3.png",
+      "/book4.png"
+    ],
+    "technologies": [
+      {"icon": "bi bi-filetype-html", "title": "HTML"},
+      {"icon": "bi bi-filetype-css", "title": "CSS"},
+      {"icon": "bi bi-filetype-jsx", "title": "React"},
+      {"icon": "bi bi-github", "title": "GitHub"}
+    ],
+    "github": "",
+    "startDate": "15 de enero, 2025",
+    "endDate": "En desarrollo"
+  }
+]

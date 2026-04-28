@@ -1,0 +1,77 @@
+[
+  {
+    "id": 1,
+    "nombre_curso": "Educacion Basica",
+    "descripcion": "Formacion basica primasria y secundaria",
+    "fecha_inicio": "10 de enero, 2009",
+    "fecha_culminacion": "21 noviembre, 2021",
+    "diploma_img": "https://marketplace.canva.com/EAGGt0QFdOw/1/0/1600w/canva-diploma-t%C3%ADtulo-curso-profesional-acuarela-azul-Ky3b7DDIM5Y.jpg",
+    "institucion": "Colegio Gerardo molina ramiez",
+    "descripcion_larga":"Formación integral en educación básica primaria y secundaria, desarrollando competencias en matemáticas, ciencias naturales, ciencias sociales, lengua castellana y educación física.",
+    "modalidad": "Presencial"
+  },
+ 
+  {
+    "id": 2,
+    "nombre_curso": "Ingeniria Sofware",
+    "descripcion": "Principios estructuras y bases para programacion",
+    "fecha_inicio": "8 de febrero, 2022",
+    "fecha_culminacion": "17 de abril, 2026",
+    "diploma_img": "./universidad.png",
+    "institucion": "Politecnico GranColombiano",
+    "descripcion_larga": "Fundamentos de programación en Python orientados al análisis de datos, manipulación de datasets, estadística descriptiva y creación de visualizaciones para la toma de decisiones. al igual que teoria de arquitectura sftware y las  fases para concluir un proyecto",
+    "duracion": "80 horas",
+    "modalidad": "Virtual"
+  },
+  {
+    "id": 3,
+    "nombre_curso": "Diplomado Ciencias de la Computacion",
+    "descripcion": "Certificación en analisis de algoritmo y tasas de crecimiento, junto xcon principios y analisis de graficos de arquitectura softwae",
+    "fecha_inicio": "18 de septembre, 2025",
+    "fecha_culminacion": "28 de octubre, 2025",
+    "diploma_img": "./diplomado.png",
+    "institucion": "Politecnico GranColombiano",
+    "descripcion_larga":" se apendio algoritmos de ordenamiento, grafos, tazass de crcimiento pensamiento asintotico",
+    "duracion": "100 horas",
+    "modalidad": "Virtual"
+  },
+
+    {
+    "id": 4,
+    "nombre_curso": "Modelos de calidad Software",
+    "descripcion": "Certificación en analisis de algoritmo y tasas de crecimiento, junto xcon principios y analisis de graficos de arquitectura softwae",
+    "fecha_inicio": "20 de Febrero, 2021",
+    "fecha_culminacion": "21 de Mayo, 2021",
+    "diploma_img": "./modelos.png",
+    "institucion": "Sena",
+    "descripcion_larga":" se apendio algoritmos de ordenamiento, grafos, tazass de crcimiento pensamiento asintotico",
+    "duracion": "40 horas",
+    "modalidad": "Virtual"
+  },
+    {
+    "id": 5,
+    "nombre_curso": "ingles",
+    "descripcion": "Certificación en analisis de algoritmo y tasas de crecimiento, junto xcon principios y analisis de graficos de arquitectura softwae",
+    "fecha_inicio": "30 de Dicembre , 2021",
+    "fecha_culminacion": "30 de abril, 2021",
+    "diploma_img": "./ingles.png",
+    "institucion": "sena",
+    "descripcion_larga":" se apendio algoritmos de ordenamiento, grafos, tazass de crcimiento pensamiento asintotico",
+    "duracion": "40 horas",
+    "modalidad": "Virtual"
+  },
+   {
+    "id": 6,
+    "nombre_curso": "python",
+    "descripcion": "Certificación en analisis de algoritmo y tasas de crecimiento, junto con principios y analisis de graficos de arquitectura softwae",
+    "fecha_inicio": "15 de septiembre, 2023",
+    "fecha_culminacion": "31 de octubre, 2023",
+    "diploma_img": "./py.jpg",
+    "institucion": "Udemy",
+    "descripcion_larga":" se apendio algoritmos de ordenamiento, grafos, tazass de crcimiento pensamiento asintotico",
+    "duracion": "30  horas",
+    "modalidad": "Virtual"
+  }
+
+
+]

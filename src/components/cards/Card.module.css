@@ -265,7 +265,7 @@ text-align: center;
 }
 
 .cardProject {
-    height: 230px;
+    height: 200px;
     background-color:#1a9bb0;
     margin: 5px 6px;
     display: flex;
@@ -286,7 +286,7 @@ box-shadow: rgb(0, 0, 0) 5px 5px 5px 2px;
 }
 
 .imgcard {
-    height: 60%;
+    height: 80%;
     padding: 0;
     margin: 0;
     flex-shrink: 0;    
@@ -318,7 +318,7 @@ font-size: 15px;
 margin-top: 3px;
 font-weight: 900;
 color: rgb(0, 0, 0);
-text-align: start;
+text-align: center;
 
 }
 

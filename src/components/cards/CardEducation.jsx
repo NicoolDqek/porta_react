@@ -5,7 +5,7 @@ import EducationModal from '../modal/EducationModal'
 import stylesM from '../../components/modal/modal.module.css' 
 
 
-export default function CardEducation() {
+export default function CardEducation({card}) {
   const [open, setOpen] = useState(false)
 
   return (
@@ -15,10 +15,10 @@ export default function CardEducation() {
           <img src={logo} alt="logo educacion" className={styles.imgeducation}/>
         </div>
         <div className={`${styles.right} col-8`}>
-          <h4 className={styles.curso}>nombre curso</h4>
-          <p className={styles.curso_description}>Lorem ipsum dolor sit amet consectetur</p>
-          <h6 className={styles.date}><strong>Fecha inicio:</strong> 34235</h6>
-          <h6 className={styles.date}><strong>Fecha Culminacion:</strong> 34235</h6>
+          <h4 className={styles.curso}>{card.nombre_curso}</h4>
+          <p className={styles.curso_description}>{card.descripcion}</p>
+          <h6 className={styles.date}><strong>Fecha inicio:</strong> {card.fecha_inicio}</h6>
+          <h6 className={styles.date}><strong>Fecha Culminacion:</strong> {card.fecha_culminacion}</h6>
           <button className={styles.diploma} onClick={() => setOpen(true)}>  {/* ← abre */}
             <i className="bi bi-caret-right-fill"></i>
             <span>ver diploma</span>
@@ -30,16 +30,16 @@ export default function CardEducation() {
           <div className={`${stylesM.EdModal} row`}>
             <div className={`${stylesM.imgG} col-lg-7`}>
           
-               <img src="https://marketplace.canva.com/EAGGt0QFdOw/1/0/1600w/canva-diploma-t%C3%ADtulo-curso-profesional-acuarela-azul-Ky3b7DDIM5Y.jpg" alt="diploma" className={`${stylesM.diplomaimg}`}/>  
-                    <h6><strong>Fecha inicio:</strong> 22 dediciembre, 2022</h6>
-        <h6><strong>Fecha culminación:</strong> 22 dediciembre, 2022</h6>
+               <img src={card.diploma_img} alt="diploma" className={`${stylesM.diplomaimg}`}/>  
+                    <h6><strong>Fecha inicio:</strong> {card.fecha_inicio}</h6>
+        <h6><strong>Fecha culminación:</strong> {card.fecha_culminacion}</h6>
        
             </div>
         
         <div className={`col-lg-5 ${stylesM.inforE}`}>
             <h3>Bachiller Academico</h3>                    
-        <p><strong>Institución: </strong>Universidad X</p>         
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, dolores laudantium vitae ad nisi temporibus fugiat nemo molestias id a deserunt voluptatum quidem explicabo veritatis illo numquam, molestiae facilis excepturi?</p>
+        <p><strong>Institución: </strong>{card.institucion}</p>         
+        <p>{card.descripcion_larga}</p>
         <h6><strong>Duración:</strong> 40 horas</h6>
         <h6><strong>Modalidad:</strong> Virtual</h6>
           

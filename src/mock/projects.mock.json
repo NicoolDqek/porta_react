@@ -1,0 +1,94 @@
+[
+  {
+    "id": 1,
+    "title": "Smart Bazzart",
+    "description": "Plataforma de comercio electrónico especializada en accesorios electrónicos de escritorio como PCs, mouses, teclados y periféricos. Diseñada con una interfaz moderna e intuitiva para una experiencia de compra fluida y agradable.",
+    "learning": "Aprendí a estructurar proyectos escalables y manejar estado global con Context API. También mejoré mis habilidades en diseño de interfaces de usuario, organización de componentes reutilizables y gestión del carrito de compras con persistencia de datos.",
+    "mainImage": "/smart.webp",
+    "images": [
+       "/smartbazzar1.png",
+       "/smartbazzar2.png",
+       "/smartbazzar3.png",
+       "/smartbazzar4.png"
+    ],
+        "technologies": [
+  {"icon":"bi bi-filetype-html","title":"HTML"},
+  {"icon":"bi bi-filetype-css","title":"CSS"},
+  {"icon":"bi bi-filetype-jsx","title":"React"},
+  {"icon":"bi bi-github","title":"GitHub"}
+],
+    "github": "https://github.com",
+    "startDate": "15 de enero, 2023",
+    "endDate": "15 de junio, 2023",
+    "link": "https://cheerful-raindrop-852624.netlify.app"
+  },
+  {
+    "id": 2,
+    "title": "PlussMark",
+    "description": "Ecommerce desarrollado con el fin de aprender el consumo de APIs públicas externas. Permite explorar y filtrar productos obtenidos en tiempo real desde una API, con diseño responsivo y navegación dinámica entre categorías.",
+    "learning": "Mejoré mis habilidades en CSS avanzado y React Router para navegación dinámica. Aprendí a manejar estados de carga y error al consumir datos externos, y a transformar respuestas de API en componentes visuales estructurados.",
+    "mainImage": "/market.avif",
+    "images": [
+      "/plussmark1.png",
+       "/plussmark2.png",
+      "/plussmark3.png",
+      "/plussmark4.png"
+    ],
+    "technologies": [
+  {"icon":"bi bi-filetype-html","title":"HTML"},
+  {"icon":"bi bi-filetype-css","title":"CSS"},
+  {"icon":"bi bi-filetype-jsx","title":"React"},
+  {"icon":"bi bi-github","title":"GitHub"}
+],
+    "github": "https://github.com",
+    "startDate": "01 de julio, 2023",
+    "endDate": "01 de septiembre, 2023",
+    "link": "https://pet-friendly.netlify.app"
+  },
+  {
+    "id": 3,
+    "title": "Pet Friendly",
+    "description": "Aplicación web orientada a dueños de mascotas, donde pueden registrar información de sus animales, agendar citas veterinarias y explorar recursos útiles. Diseñada con una interfaz amigable y accesible para todo tipo de usuarios.",
+    "learning": "Aprendí a integrar Firebase para  almacenamiento de datos en tiempo real. Utilice notificaciones para el uduario, estructura de proyectos con diferentes componentes.",
+    "mainImage": "/pet.webp",
+    "images": [
+       "/petfriendly1.png",
+      "/petfriendly2.png",
+      "/petfriendly3.png",
+      "/petfriendly4.png"
+    ],
+    "technologies": [
+  {"icon":"bi bi-filetype-html","title":"HTML"},
+  {"icon":"bi bi-filetype-css","title":"CSS"},
+  {"icon":"bi bi-filetype-jsx","title":"React"},
+  {"icon":"bi bi-github","title":"GitHub"}
+],
+    "github": "https://github.com",
+    "startDate": "10 de octubre, 2023",
+    "endDate": "10 de diciembre, 2023",
+    "link": "https://pet-friendly.netlify.app"
+  },
+  {
+    "id": 4,
+    "title": "K-API",
+    "description": "Plataforma informativa sobre el mundo del K-pop que recopila datos de grupos, empresas, miembros y fandoms. Permite explorar artistas, ver sus integrantes y conocer detalles de las agencias más importantes de la industria.",
+    "learning": "Practiqué el consumo de APIs REST con fetch y el manejo de useEffect para sincronizar datos externos con el estado del componente. Aprendí a estructurar vistas de detalle dinámicas con React Router y a manejar rutas con parámetros, tambien se implemento las bases de mongo db atlas.",
+    "mainImage": "/k-api1.png",
+    "images": [
+       "/k-api1.png",
+       "/k-api2.png",
+       "/k-api3.png",
+       "/k-api4.png"
+    ],
+       "technologies": [
+  {"icon":"bi bi-filetype-html","title":"HTML"},
+  {"icon":"bi bi-filetype-css","title":"CSS"},
+  {"icon":"bi bi-filetype-jsx","title":"React"},
+  {"icon":"bi bi-github","title":"GitHub"}
+],
+    "github": "https://github.com",
+    "startDate": "05 de enero, 2024",
+    "endDate": "05 de febrero, 2024",
+    "link": "https://k-api-phi.vercel.app"
+  }
+]

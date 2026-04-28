@@ -2,6 +2,7 @@ import React from 'react'
 import CardEducation from '../components/cards/CardEducation'
 import CardLarge from '../components/cards/CardLarge'
 import { useNavigate } from 'react-router-dom'
+import  projects from '../mock/projects.mock.json'
 
 export default function ProjectsAll() {
   const navigate = useNavigate()
@@ -13,9 +14,12 @@ export default function ProjectsAll() {
     
           <div className="row ProjectsCards">
             <div className='col'>
-      <CardLarge/>
-      <CardLarge/>
-      <CardLarge/>    
+
+              {projects.map(p =>(
+              <CardLarge key={p.id} project={p}/>
+              ))}
+    
+          
             </div>
           </div>  
         </div>
